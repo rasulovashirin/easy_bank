@@ -97,7 +97,7 @@ img {
   list-style-type: none;
 }
 .nav-item{
-
+  display: block;
 }
 .nav-link{
   display: inline-block;
