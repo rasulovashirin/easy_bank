@@ -73,6 +73,7 @@ img {
   z-index: 50;
   top: 0;
   width: 100%;
+  background-color: #fff;
 }
 .header-container{
   display: flex;
@@ -123,16 +124,19 @@ img {
   border-radius: 22px;
   white-space: nowrap;
 }
+/* Hero section */
 .main-button{
   padding: 13px 34px;
 }
 .hero-section{
-  display: flex;
-  padding: 170px 0;
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right top;
+  background-size: auto ;
+  background-position:calc(100% / 2 + 500px) calc(100% / 2 - 50px);
+}
+.hero-container{
+  padding: 170px 0;
+
 }
 .hero-info{
  max-width: 447px;
@@ -154,7 +158,15 @@ img {
   letter-spacing: -0.28125px;
   color: #9597A5;
 }
-
+.hero-img{
+  position: absolute;
+  z-index: 1;
+  left: calc(50%);
+  bottom: -160px;
+  vertical-align: baseline;
+  width: 728px;
+  height: 900px;
+}
 
 
 
