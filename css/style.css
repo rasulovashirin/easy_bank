@@ -152,13 +152,13 @@ img {
 }
 /* Hero section */
 .main-button{
-  padding: 13px 34px;
+  padding: 8px 34px;
 }
 .hero-section{
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
   background-size: auto ;
-  background-position:calc(100% / 2 + 500px) calc(100% / 2 - 50px);
+  background-position:calc(100% / 2 + 500px) calc(50%);
 }
 .hero-container{
   padding: 170px 0;
@@ -188,11 +188,89 @@ img {
   position: absolute;
   z-index: 1;
   left: calc(50%);
-  bottom: -160px;
+  bottom: -100px;
   vertical-align: baseline;
   width: 728px;
   height: 900px;
 }
+/* About section */
+.about-section{
+  background-color: #F4F5F7;
+  padding-top: 96px;
+  padding-bottom: 94px;
+}
+.about-heading{
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+
+}
+.about-text{
+  max-width: 635px;
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+.about-list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.about-item{
+ max-width: 255px;
+}
+.about-item + .about-item{
+  margin-left: 30px;
+}
+.about-list-info::before{
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  content: "";
+}
+.online-item .about-list-info::before{
+  background-image: url("../img/online.png");
+}
+.simple-item .about-list-info::before{
+  background-image: url("../img/simple.png");
+}
+.fast-item .about-list-info::before{
+  background-image: url("../img/fast.png");
+}
+.api-item .about-list-info::before{
+  background-image: url("../img/api@2x.png");
+}
+.about-list-heading{
+margin-top: 0;
+margin-bottom: 26px;
+font-weight: 100;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -0.428571px;
+color: #2D314D;
+
+}
+.about-list-text{
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597A5;
+
+}
+
+
 
 
 
