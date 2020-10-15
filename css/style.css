@@ -145,11 +145,12 @@ img {
   background-image: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
   border-radius: 22px;
   white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+.button:hover{
+  opacity: 0.5;
 }
 /* Hero section */
-.main-button{
-  padding: 8px 34px;
-}
 .hero-section{
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
@@ -325,6 +326,9 @@ color: #2D314D;
   letter-spacing: -0.285714px;
   color: #2D314D;
 }
+.articles-list-heading:hover{
+  color: #30C88F;
+}
 .articles-list-text{
   font-size: 13px;
   line-height: 18px;
@@ -339,13 +343,14 @@ color: #2D314D;
 }
 .footer-container{
   display: flex;
+  align-items: center;
 }
 .footer-left{
  margin-right: auto;
 }
 .footer-logo-link{
   display: block;
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 .footer-logo-img{
   width: 139px;
@@ -394,12 +399,17 @@ margin-top: 8px;
   letter-spacing: -0.234375px;
   color: #FFFFFF;
 }
+.footer-link:hover{
+  color: #30C88F;
+}
 .footer-right{
   display:flex;
   flex-direction: column;
   align-items: flex-start;
 }
 .footer-right-text{
+  margin-top: 24px;
+  margin-bottom: 0;
   font-size: 15px;
   line-height: 26px;
   color: #FFFFFF;
